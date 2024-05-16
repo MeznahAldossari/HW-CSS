@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+.container {
+  position: relative;
+}
+.image-background {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-bottom: 5px solid black;
+  text-align: center;
+  line-height: 28rem;
+}
+.image-background > h2 {
+  font-size: 4.5rem;
+  color: white;
+}
+.soup_image {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  width: 30%;
+  height: 70%;
+  transform: translateY(1.8rem);
+}
+.body-content {
+  margin: 20% 12% 10% 12%;
+  height: auto;
+}
+.description {
+  font-size: 1.5rem;
+  margin-bottom: 4%;
+}
+.SoupInfo {
+  width: 30%;
+  height: 60%;
+
+  display: block;
+  margin: 0 auto;
+}
+.intro {
+  padding-bottom: 13px;
+  border-bottom: 1.5px solid black;
+}
+.main-title {
+  margin-top: 20px;
+  background-color: #ff9f66;
+  width: fit-content;
+  border-radius: 100%;
+  padding: 8px;
+  margin-left: 20px;
+}
+
+ul,
+ol {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.middle-description li:before {
+  content: "-";
+}
+.PrepInfo {
+  width: 30%;
+  height: 10%;
+  padding-top: 20px;
+
+  display: block;
+  margin: 0 auto;
+}
+.middle-description {
+  padding-bottom: 13px;
+  border-bottom: 1.5px solid black;
+}
+ol {
+  counter-reset: number;
+}
+ol li {
+  counter-increment: number;
+}
+
+ol li::before {
+  content: counter(number) ")";
+}
+Directions-div {
+  padding-bottom: 20px;
+}
