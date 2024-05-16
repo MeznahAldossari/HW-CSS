@@ -30,6 +30,7 @@
   height: 70%;
   transform: translateY(1.8rem);
 }
+
 .body-content {
   margin: 20% 12% 10% 12%;
   height: auto;
@@ -37,6 +38,7 @@
 .description {
   font-size: 1.5rem;
   margin-bottom: 4%;
+  text-align: justify;
 }
 .SoupInfo {
   width: 30%;
@@ -62,6 +64,7 @@ ul,
 ol {
   margin-top: 10px;
   list-style: none;
+  text-align: justify;
 }
 
 .middle-description li:before {
